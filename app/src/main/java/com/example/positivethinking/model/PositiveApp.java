@@ -1,8 +1,9 @@
 package com.example.positivethinking.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class PositiveApp {
+public class PositiveApp implements Serializable {
     private int lastId;
     ArrayList<Thought> thoughts;
 

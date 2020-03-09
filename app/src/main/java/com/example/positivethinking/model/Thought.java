@@ -1,6 +1,8 @@
 package com.example.positivethinking.model;
 
-public class Thought {
+import java.io.Serializable;
+
+public class Thought implements Serializable {
     private int id;
     private String text;
     private String font;
