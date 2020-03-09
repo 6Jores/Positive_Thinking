@@ -2,6 +2,7 @@ package com.example.positivethinking;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"List",Toast.LENGTH_LONG).show();
+                runListThought();
             }
         });
 
@@ -56,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
         appFile = new File(root,"data");
     }
 
-    private void testText(){
-
+    private void runListThought(){
+        Intent intent = new Intent(MainActivity.this,ListThoughtActivity.class);
+        startActivity(intent);
     }
 }

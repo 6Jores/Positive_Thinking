@@ -17,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ListThoughtActivity"></activity>
+        <activity android:name=".RollThoughtsActivity"></activity>
+        <activity android:name=".EditThoughtActivity"></activity>
     </application>
 
 </manifest>

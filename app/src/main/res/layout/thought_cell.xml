@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="70dp"
+    android:layout_margin="25dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/thought_list"
+        android:layout_width="366dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/thought"
+        android:textSize="24sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"/>
+
+</LinearLayout>
