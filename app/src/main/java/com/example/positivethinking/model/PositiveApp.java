@@ -1,27 +1,27 @@
 package com.example.positivethinking.model;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class PositiveApp implements Serializable {
     private int lastId;
-    ArrayList<Thought> thoughts;
+    HashMap<Integer,Thought> thoughts;
 
     public PositiveApp() {
         lastId = 0;
-        this.thoughts = new ArrayList<>();
+        this.thoughts = new HashMap<>();
     }
 
-    public ArrayList<Thought> getThoughts() {
+    public HashMap<Integer,Thought> getThoughts() {
         return thoughts;
-    }
-
-    public void setThoughts(ArrayList<Thought> thoughts) {
-        this.thoughts = thoughts;
     }
 
     public int getLastId() {
         lastId++;
         return lastId-1;
+    }
+
+    public Thought findById (int id){
+        return thoughts.get(id);
     }
 }
