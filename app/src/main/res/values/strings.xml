@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Positive App</string>
+    <string name="welcome_textview">Hi Guy, what\'s up !!?</string>
+    <string name="button_roll_thoughts">Roll thoughts</string>
+    <string name="button_list_thoughts">List thoughts</string>
+    <string name="thought">Think Positive</string>
+    <string name="next_thought">Roll</string>
+    <string name="save_edition">Save</string>
+    <string name="thought_font">Font</string>
+</resources>
